@@ -1,0 +1,230 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+
+
+
+
+
+
+
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Arnav Patel} \\ \vspace{1pt}
+    \small 925-302-3577 $|$ \href{mailto:arnavpatel09@gmail.com}{\underline{arnavpatel09@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/arnav-patel-cs}{\underline{linkedin.com/in/arnav-patel-cs}}
+ $|$
+    \href{https://github.com/ArnavPatel09}{\underline{github.com/arnavpatel09}}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Purdue University}{West Lafayette, IN}
+      {Bachelor of Science in Computer Science}{Aug. 2021 -- Dec 2024}
+      \resumeItemListStart
+          \resumeItem{
+            \textbf{Relevant Coursework: }
+            Data Structures, Operating Systems, Systems Programming, Cryptography, Software Engineering I, Computer Architecture, Programming in C, Object Oriented Programming in Java, Discrete Math
+          }
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Textron Specialized Vehicles}{May 2023 -- Present}
+      {Software Engineering Intern}{Augusta, GA}
+      \resumeItemListStart
+        \resumeItem{Conducted extensive market research to identify challenges and requirements for monitoring pace of play in golf}
+        \resumeItem{Developed a comprehensive software system with real-time tracking, notifications, and statistical analysis features}
+        \resumeItem{Integrated hardware and software components to ensure seamless data transfer and meaningful insights}
+        \resumeItem{Resulted in substantial increase in company revenue by \$500,000+}
+      \resumeItemListEnd
+
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {JP Morgan Virtual Internship on Forage}{Aug 2022}
+      {Software Engineering Intern}{Remote}
+      \resumeItemListStart
+        \resumeItem{Fixed broken client data feed script, allowing customers to view the correlation between two stocks accurately}
+        \resumeItem{Created a graph for traders that displays and automatically updates data from the server}
+        \resumeItem{Generated a live graph that displays the data in a clear and appealing way for traders to monitor}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Halderman}{Aug 2021 -- May 2022}
+      {Backend Engineer}{West Lafayette, IN}
+      \resumeItemListStart
+        \resumeItem{Collaborated as part of a team to develop an innovative app tailored for farmers working with Halderman}
+        \resumeItem{Created a user-friendly app to collect and store data related to sustainability practices}
+        \resumeItem{Connected the collected information to an SQL database using REST API}
+        \resumeItem{Ensured data security and privacy by implementing a authentication service for farm representatives and owners}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Sheets4Fantasy} $|$ \emph{Python, JavaScript, HTML, CSS, GCP}}{}
+          \resumeItemListStart
+            \resumeItem{Developed a comprehensive web application to assist users in the '23-'24 NFL Fantasy Football season, offering an alternative to BeerSheets, which is no longer available this year}
+            \resumeItem{Employed continuous data scraping to keep player information up-to-date, ensuring the latest rankings considering injuries, trades, and signings}
+            \resumeItem{Implemented personalized league scoring settings to provide users with optimized rankings tailored to their specific league configurations, maximizing value for each user}
+            \resumeItem{Designed a user-friendly, color-coordinated cheat sheet for convenient printing, enabling users to have a tangible reference during their drafts, whether online or in-person}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Odyssey} $|$ \emph{JavaScript, HTML, CSS, Node.js, React.js, Express.js, REST API, MongoDB}}{}
+          \resumeItemListStart
+            \resumeItem{Developed a full-stack comprehensive application that helps students seamlessly locate suitable study spaces throughout the day using MERN stack}
+            \resumeItem{Incorporated essential functionalities including classroom generation, precise directions, course search capabilities, real-time messaging, and schedule comparison}
+            \resumeItem{Created REST API to query over thousands of classrooms, courses, and users using Express with Mongoose Object-Document Mapping}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Shell} $|$ \emph{C, C++, Yacc, Lex}}{}
+          \resumeItemListStart
+            \resumeItem{Independently developed a custom shell from the ground up, showcasing expertise in low-level programming and UNIX system calls}
+            \resumeItem{Implemented advanced functional support within the custom shell, including wildcards, variable expressions, subshells, file redirections, and pipes.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, C, C++, SQL, JavaScript, HTML, CSS, R} \\
+     \textbf{Frameworks and Developer Tools}{: React, Node.js, Azure, AWS, GCP, Git, VS Code, Visual Studio, Arduino} \\
+    }}
+    %\textbf{Certifications}{: Azure, AWS, GCP}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
